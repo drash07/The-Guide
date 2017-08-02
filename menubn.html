@@ -1,0 +1,32 @@
+<html>
+<head>
+<script>
+function bigImg1(x)
+{
+x.style.height="600px";
+x.style.width="500px";
+}
+
+function normalImg1(x)
+{
+x.style.height="500px";
+x.style.width="400px";
+}
+function bigImg2(x)
+{
+x.style.height="600px";
+x.style.width="500px";
+}
+
+function normalImg2(x)
+{
+x.style.height="500px";
+x.style.width="450px";
+}
+</script>
+</head>
+<body>
+<img src="menu1.jpg" onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" height=500 width=450>
+<img src="menu2.jpg" onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" height=500 width=450>
+</body>
+</html>

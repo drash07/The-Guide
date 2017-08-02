@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>main page</title>
+<script type="text/javascript">
+var image1=new Image()
+image1.src="awesome.jpg"
+var image2=new Image()
+image2.src="Sandwich.jpg"
+var image3=new Image()
+image3.src="beef.jpg"
+var image4=new Image()
+image4.src="yummy.jpg"
+var image5=new Image()
+image5.src="mumbai-aer-on-line-211871.jpg"
+var image6=new Image()
+image6.src="Food-food-33299546-1920-1200.jpg"
+var image7=new Image()
+image6.src="chicken.jpg"
+</script>
+<style>
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:3333CC;
+background-color:#white;
+text-align:left;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:none;
+}
+
+</style>
+
+</head>
+
+<body>
+<div style="opacity:1;left:0px;width:1300px;height:100px;background-color:black">
+<div style="opacity:1;position:absolute;left:120px;width:150px;height:150px;background-color:ff1493">
+<div class="text">
+<h1><center><br><b><font face="broadway" color=ffffff>GUIDE</center></b></font></h1>
+</div>
+</div>
+<div style="position:absolute;left:1100px;width:400px;height:150px;">
+<br><a href="out.php"><font face="Aharoni" color=white size=4 >LOGOUT</a>
+</div>
+
+<div style="position:absolute;left:300px;width:500px;height:150px;">
+<br><b><font face="aharoni" color=white size=5>WELCOME</a></font></b>
+</div>
+
+
+<div style="position:absolute;left:275px;width:1000px;height:150px;"><br><br><br>
+<ul>
+<li><a href="hotelslist.html">Restaurants</a></li>
+<li><a href="bookatable.html">Book a table</a></li>
+<li><a href="aboutus.html">About us</a></li>
+</ul>
+</div>
+<br><br><br><b>
+
+<div style="opacity:1;position:absolute;left:10px;width:1000px;height:475px;"><br><br><br><br><br><br><br>
+<img src="Junk-FoodFood-Wallpaper-1.jpg" name="slide" height=500 width=1300>
+
+<script>
+var step=1
+function slideit()
+{
+document.images.slide.src=eval("image"+step+".src")
+if(step<6)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit()
+</script>
+</div>
+
+
+</body>
+</html>

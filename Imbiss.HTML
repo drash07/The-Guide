@@ -1,0 +1,123 @@
+<html>
+<head><style type="text/css">a {text-decoration: none}
+b
+{
+font-family:"Arial Rounded MT Bold";
+color:black	;
+text-align:left;
+font-size:30px;
+}
+p
+{
+font-family:"Arial";
+color:black;
+text-align:center;
+font-size:20px;
+}
+pre
+{
+font-family:"Century Schoolbook";
+color:black;
+text-align:left;
+font-size:20px;
+}
+</style>
+<script>
+function changeImage()
+{
+element=document.getElementById('myimage')
+if (element.src.match("hrtred"))
+  {
+  element.src="heart.png";
+  }
+else
+  {
+  element.src="hrtred.gif";
+  }
+}
+</script>
+<style>
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:3333CC;
+background-color:#white;
+text-align:left;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:none;
+}
+
+</style>
+<style>
+body {background: url('qw.jpg') no-repeat center center fixed; 
+	background-size:cover;}
+
+
+</style>
+</head>
+<body>
+<body>
+<div style="opacity:1;left:0px;width:1300px;height:100px;background-color:black">
+<div style="opacity:1;position:absolute;left:120px;width:150px;height:150px;background-color:ff1493">
+<div class="text">
+<h1><center><br><b><font face="broadway" color=ffffff>GUIDE</center></b></font></h1>
+</div>
+</div>
+<div style="position:absolute;left:1100px;width:400px;height:150px;">
+<br><font face="AHARONI" color=white >
+</div>
+
+<div style="position:absolute;left:275px;width:1000px;height:150px;"><br><br><br><br>
+<ul>
+<li><a href="page1.php">Home</a></li>
+<li><a href="hotelslist.html">Restuarant</a></li>
+<li><a href="aboutus.html">About us</a></li>
+</ul>
+</div>
+
+
+
+<div style="position:absolute;left:1100px;width:500px;height:100px;">
+<br><br><br<br>
+</div>
+
+<form>               
+<div style="position:absolute;left:100px;width:1200px;height:900px;">
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="imbisslogo.jpg" height=200 width=250 align="left"><br>
+&nbsp&nbsp<br><b>IMBISS</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img id="myimage"src="heart.png" onclick="changeImage()" border="0" height=30 width=30>
+<br>
+<font color=black size=4>
+Address: 	<br>								
+14, Ben O Lil Haven, Waroda Road,<br>				
+Off Hill Road, Bandra West, Mumbai <br>
+Telephone-022 26414985, +91 8454946413 <br><br><br><br><br><br>
+<ul>
+<li><a href="infoim.html" target="my_iframe">Info</a></li>
+<li><a href="menuim.html" target="my_iframe">Menu</a></li>
+<li><a href="picim.html" target="my_iframe">Photos</a></li>
+<li><a href="mapim.html" target="my_iframe">Map</a></li><br>
+</ul>
+ <iframe height=750 width=1200 frameborder=0 scrolling="no"
+      src="infoim.html"name="my_iframe">
+</iframe>
+</div>
+</form></body></html>
